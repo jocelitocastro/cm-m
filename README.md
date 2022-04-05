@@ -31,13 +31,13 @@ python .\1_grade.py -53 -51 -25 -24 0.1 0.1 dem_PR_4326_ASTER.tif
 
 - Baixar os mapas do SoilGrids
 
-1. Comando:
+2. Comando:
 ```
 python .\2_baixar_mapas_soilgrids.py
 ```
 - Gerar os parâmetros físico-hídricos e arquivos de solo
 
-1. Comando:
+3. Comando:
 ```
 python .\3_gerar_arquivos_solo.py
 ```
@@ -46,13 +46,13 @@ python .\3_gerar_arquivos_solo.py
 
 - Baixar os arquivos da grade de Xavier
 
-1. Comando:
+4. Comando:
 ```
 python .\4_baixar_grade_Xavier.py
 ```
 - Gerar os arquivos climáticos
 
-1. Comando:
+5. Comando:
 ```
 python .\5_criar_arquivos_ued_.py
 ```
@@ -73,7 +73,7 @@ Intervalo de semeadura (dias) = 10
 
 - Gerar os cenários de cultura
 
-1. Comando:
+6. Comando:
 ```
 python .\6_criar_cenarios.py 1961 2019 150 200 10
 ```
