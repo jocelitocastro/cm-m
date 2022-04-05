@@ -14,7 +14,7 @@ Indispensável acesso à internet e disponibilidade em disco para armazenamento 
 Criar um ambiente em Python, em linha de comando, com o arquivo: **./bin/cmm.yml**
 
 ```
-conda env create --file ./bin/cmm.yml
+conda env create --file .\bin\cmm.yml
 ```
 
 Ativar o ambiente _cmm_ criado:
@@ -24,15 +24,15 @@ conda activate cmm
 ```
 
 # Exemplo de uso:
-No powershell (linha de comando), no diretório "bin".
+No powershell (linha de comando), acessar o diretório "bin".
 ```
-cd bin/
+cd .\bin
 ```
 ## Geração da grade regular
 
 - Exemplo dos parâmetros para chamada do módulo, definindo um retângulo envolvente, resolução dos centroides e associando um arquivo no formato raster para valores de elevação (altitude).  
 
-O arquivo elevação deverá estar salvo em _./Database/Maps/Raster/Dem/raster_dem_file_name.tif_  
+O arquivo elevação deverá estar salvo em _.\Database\Maps\Raster\Dem\raster_dem_file_name.tif_  
 
 xmin = -53  
 xmax = -51  
