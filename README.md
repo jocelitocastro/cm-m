@@ -15,6 +15,12 @@ Criar um ambiente em Python, em linha de comando, com o arquivo: **./bin/cmm.yml
 conda env create --file ./bin/cmm.yml
 ```
 
+Ativar o ambiente _cmm_ criado:
+
+```
+conda activate cmm
+```
+
 # Exemplo de uso:
 No powershell (linha de comando), no diretório "bin".
 ```
