@@ -8,7 +8,7 @@ Parte de minha tese de doutorado para geração de dados de entrada e cenários 
 Contribuições são importantes. As aplicações podem ser estendidas para outros modelos.
 
 ## Requisitos
-Criar um ambiente em Python, em linha de comando, com o arquivo: *cm-m/bin/cmm.yml*
+Criar um ambiente em Python, em linha de comando, com o arquivo: **cm-m/bin/cmm.yml**
 
 ```
 conda env create --file cmm.yml
