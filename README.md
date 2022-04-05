@@ -28,7 +28,8 @@ cd bin/
 ```
 ## Geração da grade regular
 
-- Exemplo dos parâmetros para chamada do módulo, definindo um retângulo envolvente, resolução dos centroides e associando um arquivo no formato raster para valores de elevação (altitude). O arquivo elevação deverá estar salvo na pasta:
+- Exemplo dos parâmetros para chamada do módulo, definindo um retângulo envolvente, resolução dos centroides e associando um arquivo no formato raster para valores de elevação (altitude).  
+O arquivo elevação deverá estar salvo em _./Database/Maps/Raster/Dem/raster_dem_file_name.tif_  
 
 xmin = -53  
 xmax = -51  
@@ -79,8 +80,8 @@ python .\5_criar_arquivos_ued_.py
 
 - Exemplo dos parâmetros para chamada do módulo:
 
-Início da rotação = 1961  
-Fim da rotação = 2019  
+Ano do início da rotação = 1961  
+Ano do término da rotação = 2019  
 Primeiro dia juliano de semeadura = 150  
 Último dia juliano de semeadura = 200  
 Intervalo de semeadura (dias) = 10  
