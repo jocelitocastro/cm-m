@@ -2,8 +2,8 @@
 """
 Created on Sat Jun 19 10:22:19 2021
 
-@author: Jocelito Cruz
-email: jocelitocastro@gmail.com
+Created by Jocelito B. C. da Cruz
+jocelitocastro@gmail.com
 __version__: 0.1
 Date: 2021/06/25
 

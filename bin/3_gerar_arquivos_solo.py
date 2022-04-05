@@ -3,7 +3,8 @@
 """
 Created on Sun Jun 14 17:23:02 2020
 
-@author: jocelito
+Created by Jocelito B. C. da Cruz
+jocelitocastro@gmail.com
 """
 # __version__: 0.1
 

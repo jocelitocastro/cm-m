@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-Modified by Jocelito Cruz from Alexandre Xavier
+
+Modified by Jocelito Cruz from Alexandre Cândido Xavier
 Support to netCDF by: Alexandre C. Xavier
 Support to UED by: Roger Nelson
 
