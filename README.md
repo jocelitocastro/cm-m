@@ -79,7 +79,7 @@ python .\4_baixar_grade_Xavier.py
 python .\5_criar_arquivos_ued_.py
 ```
 
-## Geração dos arquivos de configuração de cultura
+## Geração dos arquivos de configuração de culturas
 
 - Exemplo dos parâmetros para chamada do módulo:
 
