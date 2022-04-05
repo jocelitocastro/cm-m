@@ -7,7 +7,7 @@ Parte de minha tese de doutorado para geração de dados de entrada e cenários 
 Contribuições são importantes. As aplicações podem ser estendidas para outros modelos.
 
 
-Para execução python em shell ou powershell.  
+Para execução python em shell ou powershell (Windows).  
 Indispensável acesso à internet e disponibilidade em disco para armazenamento de grande quantidade de dados (> 100GB).
 
 ## Requisitos
