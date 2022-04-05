@@ -12,7 +12,7 @@ Para execução python em shell ou powershell.
 Criar um ambiente em Python, em linha de comando, com o arquivo: **./bin/cmm.yml**
 
 ```
-conda env create --file cmm.yml
+conda env create --file ./bin/cmm.yml
 ```
 
 # Exemplo de uso:
