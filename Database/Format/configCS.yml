@@ -1,0 +1,41 @@
+rotation:
+    rotation:
+        description: Sucessao_Trigo
+        end_year: 2019
+        years: 59
+        sowing: 'count=59'
+
+    version:
+        code: 202
+        program: 2021097
+
+sowing:
+    sowing: 
+        ID: 1961
+        res_set_ID: 0
+        contingency: none
+        operation_type:
+        operation_name:
+        operation_filename: ^\Database\Crop
+        enable_for_model: secondary_only
+        event_synchronization: actual_date
+        event_date: 2010190
+        checked: true
+        enabled: true
+        description: crop:Trigo.crp | management:Trigo.crp\AutoIrrigHarvest.mgt
+        name:
+        start_hour: 0
+        duration: 6
+        OP_ID: 0
+        carbon_footprint: 0.00000000
+        terminate_crop: false
+        NRCS_field_op: none
+        LAND_USE_ID: 0
+        MGT_ID: 0
+        crop: ^\Database\Crop\Trigo.crp
+        management: ^\Database\Management\AutoIrrigHarvest.mgt
+        plant_by: 0
+        seeding_rate: 204
+        emergence_rate: 100.0
+        sowing_depth: 5.00
+        date: 2010190    

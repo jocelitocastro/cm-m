@@ -1,0 +1,264 @@
+
+[GUI]
+show=FFFF
+
+[version]
+code=4391004
+program=2021097
+
+[crop]
+description=Sucessao_Trigo
+feed_name_immature=
+feed_name_midmature=
+feed_name_mature=
+model=crop
+harvested_part=grain
+RUSLE2_name=
+RUSLE2_description=
+abscission=marcescent
+photosynthetic_pathway=C3
+life_cycle=annual
+land_use=SMALL_GRAIN
+continuation_mode=single
+canopy_growth=canopy_cover_2017
+adjustment:count=4
+linger=90 days
+grain_stress_period:count=0
+
+[water_use_efficiency]
+season2_adj=1.00000000
+season3_adj=1.00000000
+season4_adj=1.00000000
+season5_adj=1.00000000
+
+[leaf]
+senesces=true
+clip_newest=true
+max_LAI=5.0000000 m²/m²
+fract_LAI_mature=0.8000000 0-1
+initial_GAI=0.0110000 m²/m²
+regrowth_GAI=0.0110000 m²/m²
+specific_leaf_area=24.0000000 m²/kg
+stem_leaf_partition=3.0000000 0-4
+duration=900.0000000 Degree days
+duration_stress_sensitivity=1.0000000 0-3
+
+[transpiration]
+ET_coef_adjust_daily=false
+ET_crop_coef=1.2400000 0.8-1.4
+max_water_uptake=12.0000000 mm/day
+stomatal_closure_leaf_water_pot=-1200.0 J/kg
+wilt_leaf_water_pot=-1800.0 J/kg
+
+[growth]
+WUE_changes=true
+efficiency_model=TUE
+TUE_scaling_coef=0.4500000 -
+TUE_scaling_coef_veg=0.4500000 -
+TUE_at_1pKa_VPD=4.0000000 g BM/kg H2O
+TUE_at_1pKa_VPD_veg=5.0000000 g BM/kg H2O
+RUE_at_low_VPD=1.6000000 g/MJ
+RUE_at_low_total_solar_rad=4.0000000 g/MJ
+RUE_efficiency_decrease_rate=0.0000000 (g m² d)/ MJ²
+min=0.0000000 °C
+low=10.0000000 °C
+high=30.0000000 °C
+max=40.0000000 °C
+LWP_reduces_canopy_expansion=-800.0 J/kg
+LWP_stops_canopy_expansion=-1200.0 J/kg
+
+[morphology]
+canopy_architecture=false
+max_canopy_height=0.8000000 m
+
+[canopy_cover]
+light_extinction_coef=0.5000000 0-1
+initial=0.0100000 fraction
+maximum=0.9200000 fraction
+total_season_end=0.1000000 fraction
+green_season_end=0.0000000 fraction
+shape_accrescent=9.0000000 coef
+shape_senescent=9.0000000 coef
+rel_TT_at_half_CC_max=0.5000000 °C-days
+
+[harvest_index]
+unstressed=0.4600000 0-1
+translocation_max=0.4000000 0-1
+adjust_HI=false
+temperature_extreme_response=false
+water_response=false
+temperature_response=false
+consider_before=3
+consider_after=3
+water_stress_sensitivity=1.00000000
+temperature_stress_sensitivity=0.00000000
+response_temperature_optimum=25.00000000
+response_temperature_damaging=35.00000000
+
+[hardiness]
+enabled=false
+damage_cold_temp=-5.0 °C
+lethal_cold_temp=-10.0
+
+[nitrogen]
+fixation=false
+legume_fraction=1.00000000
+leaf_expansion_sensitivity=1.00000000
+TUE_stress_sensitivity=0.50000000
+max_uptake_daily_rate=6.0000000 kg/ha/day
+stubble_max_conc=0.0070000 kgN/kgDM
+root_conc=0.0070000 kgN/kgDM
+dilution_curve_slope=0.4500000 0-1
+residual_N_not_available_for_uptake=1.0000000 ppm
+soil_N_conc_where_N_uptake_decreases=5.0000000 ppm
+PAW_where_N_uptake_rate_decreases=0.5000000 0-1
+emergence_max_conc=0.0070000 kgN/kgDM
+emergence_crit_conc=0.0070000 kgN/kgDM
+biomass_to_start_dilution_crit_N_conc=1.5000000 tn/ha
+N_mature_max_conc=0.0235000 kgN/kgDM
+end_dilution_curve=950 °C-days
+
+[fruit]
+fract_total_solids=0.3500000 0-1
+max_fruit_load=20000.0000000 kg/ha
+initial_growth_fraction_to_fruit=0.9000000 0-1
+rapid_growth_fraction_to_fruit=0.6500000 0-1
+harvest_temperature=15.0000000 °C
+harvest_temperature_days=5 Days
+earliest_harvest=290 DOY
+latest_harvest=350 DOY
+max_water_uptake_before_fruiting=10.0000000 mm/day
+max_water_uptake_during_initial_fruit=10.0000000 mm/day
+max_water_uptake_during_radid_fruit=10.0000000 mm/day
+max_water_uptake_during_veraison=10.0000000 mm/day
+max_water_uptake_after_maturity=10.0000000 mm/day
+
+[CO2]
+TUE_reference_conc=393.0000000 ppm
+RUE_reference_conc=393.0000000 ppm
+alpha=0.0050000
+theta=0.8000000
+growth_ratio_asymptotic=1.7000000
+
+[salinity]
+osmotic_pot_50=0.0000000 kPa
+tolerance_P=0.0000000 1-5
+
+[canopy_characteristics]
+initial_width=1.0000000 m
+final_width=1.0000000 m
+initial_breadth=2.0000000 m
+final_breadth=2.0000000 m
+initial_height=1.2000000 m
+final_height=1.2000000 m
+branch_insertion_height=0.6000000 m
+
+[layout]
+row_spacing=2.7000000 m
+row_azimuth=0.0000000 0 = North, 90 = East, 180 = South,  270 = West
+col_spacing=2.5000000 m
+
+[phenology]
+maturity_significant=true
+clipping_resets=false
+duration.accrescence=840.00000000
+duration.culminescence=171.00000000
+duration.senescence=449.00000000
+duration.root_elongation=1130.00000000
+emergence=110.0000000 °C-days
+flowering=1010.0000000 °C-days
+tuber_init=1130.0000000 °C-days
+filling=1130.0000000 °C-days
+rapid_fruit_growth=1130.0000000 1120°C-days
+maturity=1570.0000000 °C-days
+water_stress_sensitivity=0.0000000 0-1
+WUE_change=1130.0000000 °C-days
+thermal_response=linear
+base_temp=3.0000000 °C
+cutoff_temp=30.0000000 °C
+optimal_temp=22.0000000 °C
+maximum_temp=40.0000000 °C
+
+[root]
+root_sensitivity_water_stress=0.0500000 index
+max_root_depth=1.0000000 m
+surface_root_density=6.0000000 cm/cm³
+root_density_distribution_curvature=0.0010000 0.0001-6.0
+root_length_at_emergence=2.0000000 cm
+root_shoot_emergence_ratio=2.0000000 ratio
+root_shoot_full_ratio=0.1000000 ratio
+
+[inactive_period]
+consider_inactive_days=7 days
+inducement_temperature=10.0000000 °C
+root_loss=30.00000000
+
+[residue]
+RUSLE2_type=unknown
+fast_cycling_top_fraction=0.5000000
+slow_cycling_top_fraction=0.4000000
+lignified_top_fraction=0.1000000
+fast_cycling_root_fraction=0.5000000
+slow_cycling_root_fraction=0.3000000
+lignified_root_fraction=0.2000000
+fast_cycling_halflife=3.5000000
+slow_cycling_halflife=9.9899998
+lignified_halflife=115.0699997
+detrition_halflife=720.0000000
+carbon_fraction=0.4600000
+stubble_area_covered_to_mass_ratio=2.0000000
+area_covered_to_mass_ratio=5.0000000
+
+[vernalization]
+enabled=false
+low_temp=3.0000000 °C
+high_temp=10.0000000 °C
+start=10.0000000 °C-days
+end=50.0000000 °C-days
+min_factor=0.0000000 0-1
+
+[photoperiod]
+photoperiodism=none
+stop=0.0000000 hours
+unconstrain=0.0000000 hours
+
+[adjustment:1]
+event_synchronization=after_normal_crop_growth_stage
+event_offset=0
+event_phenologic=sowing
+reschedule=no
+checked=true
+enabled=true
+parameter=Base temperature (Thermal time accumulation) [base_temp]
+value=2.10000
+
+[adjustment:2]
+event_synchronization=after_normal_crop_growth_stage
+event_offset=0
+event_phenologic=emergence
+reschedule=no
+checked=true
+enabled=true
+parameter=Base temperature (Thermal time accumulation) [base_temp]
+value=4.80000
+
+[adjustment:3]
+event_synchronization=after_normal_crop_growth_stage
+event_offset=0
+event_phenologic=flowering
+reschedule=no
+checked=true
+enabled=true
+parameter=Base temperature (Thermal time accumulation) [base_temp]
+value=0.80000
+
+[adjustment:4]
+event_synchronization=after_normal_crop_growth_stage
+event_offset=0
+event_phenologic=filling
+reschedule=no
+checked=true
+enabled=true
+parameter=Base temperature (Thermal time accumulation) [base_temp]
+value=8.00000
+
