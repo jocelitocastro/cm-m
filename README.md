@@ -3,7 +3,7 @@
 
 ## Geração da grade regular
 
-- Exemplo dos parâmetros para chamada do módulo:
+- Exemplo dos parâmetros para chamada do módulo:  **Enter**
 xmin = -53
 xmax = -51
 ymin = -25
@@ -12,8 +12,8 @@ res_y = 0.1
 res_x = 0.1
 dem_raster_file = raster_dem_file_name.tif
 
-- Gerar a grade regular
-Comando:
+- Gerar a grade regular  **Enter**
+Comando:  **Enter**
 python .\1_grade.py -53 -51 -25 -24 0.1 0.1 dem_PR_4326_ASTER.tif
 
 
