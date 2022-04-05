@@ -1,11 +1,12 @@
 # cm-m
 ## Crop Models modules
 
-Para execução python em shell ou powershell.
 
 Parte de minha tese de doutorado para geração de dados de entrada e cenários do CropSyst.
 
 Contribuições são importantes. As aplicações podem ser estendidas para outros modelos.
+
+Para execução python em shell ou powershell.
 
 ## Requisitos
 Criar um ambiente em Python, em linha de comando, com o arquivo: **./bin/cmm.yml**
