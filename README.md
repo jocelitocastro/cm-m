@@ -28,7 +28,7 @@ cd bin/
 ```
 ## Geração da grade regular
 
-- Exemplo dos parâmetros para chamada do módulo:
+- Exemplo dos parâmetros para chamada do módulo, definindo um retângulo envolvente, resolução dos centroides e associando um arquivo no formato raster para valores de elevação (altitude). O arquivo elevação deverá estar salvo na pasta:
 
 xmin = -53
 xmax = -51
