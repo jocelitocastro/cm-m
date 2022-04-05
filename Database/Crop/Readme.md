@@ -1,0 +1,1 @@
+Arquivo de configuração das culturas, após calibração do CropSyst.
