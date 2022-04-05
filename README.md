@@ -16,8 +16,10 @@ conda env create --file ./bin/cmm.yml
 ```
 
 # Exemplo de uso:
-
-
+No powershell (linha de comando), no diretório "bin".
+```
+cd bin/
+```
 ## Geração da grade regular
 
 - Exemplo dos parâmetros para chamada do módulo:
