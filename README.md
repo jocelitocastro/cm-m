@@ -1,9 +1,9 @@
 # cm-m
-Crop Models modules
+## Crop Models modules
 
 Para execução python em shell ou powershell.
 
-Parte de minha tese de doutorado.
+Parte de minha tese de doutorado para geração de dados de entrada e cenários do CropSyst.
 
 Contribuições são importantes. As aplicações podem ser estendidas para outros modelos.
 
