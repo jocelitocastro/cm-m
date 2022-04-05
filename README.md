@@ -6,7 +6,9 @@ Parte de minha tese de doutorado para geração de dados de entrada e cenários 
 
 Contribuições são importantes. As aplicações podem ser estendidas para outros modelos.
 
-Para execução python em shell ou powershell.
+
+Para execução python em shell ou powershell.  
+Indispensável acesso à internet e disponibilidade em disco para armazenamento de grande quantidade de dados (> 100GB).
 
 ## Requisitos
 Criar um ambiente em Python, em linha de comando, com o arquivo: **./bin/cmm.yml**
@@ -29,6 +31,7 @@ cd bin/
 ## Geração da grade regular
 
 - Exemplo dos parâmetros para chamada do módulo, definindo um retângulo envolvente, resolução dos centroides e associando um arquivo no formato raster para valores de elevação (altitude).  
+
 O arquivo elevação deverá estar salvo em _./Database/Maps/Raster/Dem/raster_dem_file_name.tif_  
 
 xmin = -53  
