@@ -1,0 +1,1 @@
+# Diretório para criação dos Cenários do CropSyst
