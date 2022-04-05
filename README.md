@@ -30,12 +30,12 @@ cd bin/
 
 - Exemplo dos parâmetros para chamada do módulo, definindo um retângulo envolvente, resolução dos centroides e associando um arquivo no formato raster para valores de elevação (altitude). O arquivo elevação deverá estar salvo na pasta:
 
-xmin = -53
-xmax = -51
-ymin = -25
-ymax = -24
-res_y = 0.1
-res_x = 0.1
+xmin = -53  
+xmax = -51  
+ymin = -25  
+ymax = -24  
+res_y = 0.1  
+res_x = 0.1  
 dem_raster_file = raster_dem_file_name.tif
 
 - Gerar a grade regular 
