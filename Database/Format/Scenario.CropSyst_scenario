@@ -37,7 +37,7 @@ preclude=0
 [output]
 run_time_graph=true
 display_profile=false
-report_format=^\Database\Management\std_report.FMT
+report_format=^\Database\Format\std_report.FMT
 options=options=no_options.cs_output_options
 awdoy=0
 
@@ -92,7 +92,7 @@ profile_depth_limit=0
 [H2O]
 moisture=avg
 recalibrate_date=0
-units=m³ H2O/m³ soil
+units=mÂ³ H2O/mÂ³ soil
 1=0.00000000
 2=0.00000000
 3=0.00000000
@@ -120,7 +120,7 @@ stubble_biomass=0.0000000
 surface_biomass=0.0000000
 
 [incorporated_residue]
-units=kg/m²
+units=kg/mÂ²
 1=0.00000000
 2=0.00000000
 3=0.00000000
@@ -146,10 +146,10 @@ n_conc=0.0000000 kgN/kgDM
 previous_crop=<unknown or no previous crop residue>.crp
 
 [initial_manure]
-surface_biomass=0.0000000 kg/m²
-incorporated_biomass=0.0000000 kg/m²
+surface_biomass=0.0000000 kg/mÂ²
+incorporated_biomass=0.0000000 kg/mÂ²
 water_hold=0.00000000
-n_conc=0.0000000 kg/m²
+n_conc=0.0000000 kg/mÂ²
 
 [salt]
 water_table_salinity=0.0000000 dS/m
