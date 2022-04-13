@@ -10,7 +10,7 @@ Contribuições são importantes. As aplicações podem ser estendidas para outr
 Para execução python em shell ou powershell (Windows).  
 Indispensável acesso à internet e disponibilidade em disco para armazenamento de grande quantidade de dados (> 100GB).
 
-## Requisitos
+## Requisitos 
 Criar um ambiente em Python, em linha de comando, com o arquivo: **./bin/cmm.yml**
 
 ```
